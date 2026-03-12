@@ -1,0 +1,14 @@
+[
+  {
+    "id": "comparison-credit-card-processing",
+    "page_type": "comparison",
+    "tags": ["comparison", "affiliate", "b2b", "fintech", "multi-cta", "click-through", "ranked-list", "card-based", "phone-cta", "small-business"],
+    "desired_outcome": "click-through to provider (affiliate revenue)"
+  },
+  {
+    "id": "lead-gen-optimum-internet",
+    "page_type": "lead-gen",
+    "tags": ["lead-gen", "telecom", "isp", "b2c", "phone-cta", "zip-code-capture", "tiered-pricing", "price-lock", "bundle-upsell", "authorized-agent", "call-tracking", "urgency", "hbo-max-promo", "fiber-internet", "long-form"],
+    "desired_outcome": "lead capture via zip code availability check or phone call"
+  }
+]

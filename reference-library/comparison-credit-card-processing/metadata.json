@@ -1,0 +1,80 @@
+{
+  "id": "comparison-credit-card-processing",
+  "source_url": "https://www.business.com/lp/bdc/compare-credit-card-processing/",
+  "captured_date": "2026-03-11",
+  "page_type": "comparison",
+  "industry": "fintech / payment processing",
+  "target_audience": "small business owners evaluating credit card processors",
+  "desired_outcome": "click-through to provider (affiliate revenue)",
+
+  "sections": [
+    {
+      "order": 1,
+      "type": "hero",
+      "variant": "split-hero-with-cards",
+      "description": "H1 headline + subheadline on left over dark background image. Three ranked provider cards overlaid on the right, each showing rank badge, logo, bullet features, Visit Site CTA, and phone number. The hero IS the comparison — no separation between introduction and product display.",
+      "cta_present": true,
+      "cta_type": "visit-site button + phone link per card"
+    },
+    {
+      "order": 2,
+      "type": "product-comparison-list",
+      "variant": "ranked-cards-expanded",
+      "description": "Numbered, vertically stacked provider cards with full detail: logo, star rating with label, 3 feature bullets, pricing info, promo banner with legal footnote, and dual CTAs (Visit Site + phone). 5 providers total. Each card is a self-contained decision unit.",
+      "cta_present": true,
+      "cta_type": "visit-site button + phone link per card"
+    },
+    {
+      "order": 3,
+      "type": "trust-signals",
+      "variant": "stats-bar-4-column",
+      "description": "Authority section with headline 'A trusted resource for small businesses' + brief editorial paragraph. 4-column stats grid on dark background with green accent: 2M+ businesses, 26 years, 10+ industries, 950+ providers. Establishes editorial credibility between comparison and FAQ.",
+      "cta_present": false,
+      "cta_type": null
+    },
+    {
+      "order": 4,
+      "type": "faq",
+      "variant": "accordion",
+      "description": "5-question expandable accordion. Questions address core buyer concerns: what is processing, cost, contracts, payout speed, payment types. Handles objections without being salesy.",
+      "cta_present": false,
+      "cta_type": null
+    },
+    {
+      "order": 5,
+      "type": "product-comparison-list",
+      "variant": "compact-cards-dark",
+      "description": "Top 3 providers repeated in compact card format on dark background. Acts as a final conversion opportunity — visitors who scrolled through FAQ and trust signals get one more chance to click through. Simpler than the full cards above.",
+      "cta_present": true,
+      "cta_type": "visit-site button + phone link per card"
+    },
+    {
+      "order": 6,
+      "type": "footer",
+      "variant": "minimal-legal-heavy",
+      "description": "Logo, extensive legal disclaimers for each provider's promotional offers, and standard links (privacy, terms, accessibility, data rights). Legal copy dominates — required for affiliate compliance.",
+      "cta_present": false,
+      "cta_type": null
+    }
+  ],
+
+  "cta_strategy": {
+    "primary_action": "Visit site (click-through to provider)",
+    "secondary_action": "Phone call to provider",
+    "cta_count": 3,
+    "placement_notes": "CTAs are embedded within provider cards, not standalone sections. Every card is a CTA. Three touchpoints: hero cards (above fold), expanded comparison list (mid-page), compact cards (bottom). No isolated CTA block — the product cards ARE the CTAs."
+  },
+
+  "responsive_notes": "Hero cards stack vertically on mobile, becoming a scrollable ranked list. Expanded comparison cards go full-width single column with feature bullets, pricing, and CTAs stacked. Stats grid becomes 2x2. Phone numbers get prominent tap-target sizing on mobile. The compact bottom cards also stack vertically. Overall the page maintains its structure on mobile — just linearizes horizontally laid out elements.",
+
+  "notable_patterns": [
+    "Hero section doubles as the comparison preview — no wasted space on a generic value prop before showing products. Visitors see ranked options immediately above the fold.",
+    "Provider cards are self-contained decision units: every card has enough info (rank, rating, features, price, promo, CTA) to convert without scrolling further. This supports 'satisficers' who decide quickly.",
+    "Trust/authority section (stats bar) is placed BETWEEN the detailed comparison and FAQ — it reinforces credibility right before the page addresses objections, strengthening the FAQ answers.",
+    "Bottom repeat of top 3 providers on dark background creates visual contrast and acts as an 'end CTA block' without breaking the comparison format. Visitors who read everything get a clean, simplified re-presentation.",
+    "No standalone CTA sections exist — every CTA is contextual within a provider card. This avoids the generic 'Sign up now' pattern and keeps every action tied to a specific choice.",
+    "Dual CTA pattern (button + phone number) on every card serves both self-service and high-touch buyer personas simultaneously."
+  ],
+
+  "tags": ["comparison", "affiliate", "b2b", "fintech", "multi-cta", "click-through", "ranked-list", "card-based", "phone-cta", "small-business"]
+}

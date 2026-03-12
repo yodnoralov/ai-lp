@@ -7,13 +7,13 @@ description: Use when recommending landing page types, section structures, CTA s
 
 Reference library of landing page types, section patterns, and conversion strategies.
 
-<!-- TODO: This skill needs a curated reference library to be fully effective. When available, add:
-     - Screenshots of real landing pages organized by type
-     - JSON metadata per reference page (layout, sections, CTA strategy, performance data)
-     - A/B test results or conversion data for different patterns
-     - Industry-specific pattern recommendations
-     Until the reference library exists, the patterns below provide general strategic guidance
-     for the landing-page-strategist agent. -->
+## Reference Library
+
+Curated real-world landing page examples are stored in `reference-library/`. Each entry includes structured metadata (sections, CTA strategy, notable patterns, tags) and desktop/mobile screenshots.
+
+To find relevant references, read `reference-library/index.json` and filter by `page_type`, `tags`, or `desired_outcome`. Then read the full `metadata.json` for matching entries.
+
+To add new entries, use the `tooling-page-analyzer` skill.
 
 ## Page Type Taxonomy
 

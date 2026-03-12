@@ -1,0 +1,155 @@
+{
+  "id": "lead-gen-optimum-internet",
+  "source_url": "https://www.optimum.com/cf/?vn=hyper-leadflowa",
+  "captured_date": "2026-03-11",
+  "page_type": "lead-gen",
+  "industry": "telecom / internet service provider",
+  "target_audience": "residential consumers shopping for home internet service",
+  "desired_outcome": "lead capture via zip code availability check or phone call",
+
+  "sections": [
+    {
+      "order": 1,
+      "type": "top-bar",
+      "variant": "utility-nav",
+      "description": "Thin utility bar with Customer Service, Account Login, and Business links. Minimal — just functional wayfinding for existing customers who landed here by mistake.",
+      "cta_present": false,
+      "cta_type": null
+    },
+    {
+      "order": 2,
+      "type": "navbar",
+      "variant": "sticky-nav-with-phone",
+      "description": "Optimum logo, product category links (Internet, Deals, TV, Mobile, Moving), and a prominent phone CTA with 'Experts available 24/7' label and tracked phone number. The phone number is the primary conversion nudge in the nav — always visible.",
+      "cta_present": true,
+      "cta_type": "phone link"
+    },
+    {
+      "order": 3,
+      "type": "promo-banner",
+      "variant": "urgency-strip",
+      "description": "Full-width orange banner: 'Limited time! Sign-up today to lock in 5 years of our lowest prices on Fiber-powered Internet!' Creates urgency immediately below the nav before the hero loads.",
+      "cta_present": false,
+      "cta_type": null
+    },
+    {
+      "order": 4,
+      "type": "hero",
+      "variant": "split-hero-with-offer-card",
+      "description": "Blue gradient background with lifestyle photo on right. Left side has H1 ('A fresh start deserves fast, Fiber-powered Internet'), a featured offer card showing 1 Gig at $45/mo for 5 years plus HBO Max included, and a zip code input with 'Check availability' CTA. The hero combines value prop, anchor pricing, and lead capture in one section.",
+      "cta_present": true,
+      "cta_type": "zip code availability check"
+    },
+    {
+      "order": 5,
+      "type": "cross-sell-banner",
+      "variant": "inline-link-bar",
+      "description": "Thin blue bar: 'Moving soon? Transfer your Optimum service in minutes — Start here.' Addresses a specific segment (movers) with a contextual CTA.",
+      "cta_present": true,
+      "cta_type": "text link"
+    },
+    {
+      "order": 6,
+      "type": "secondary-zip-bar",
+      "variant": "inline-availability-check",
+      "description": "Horizontal bar with 'See if Optimum is available near you!' and a zip code input + Check availability button. Repeats the lead capture form for visitors who scrolled past the hero.",
+      "cta_present": true,
+      "cta_type": "zip code availability check"
+    },
+    {
+      "order": 7,
+      "type": "pricing-comparison",
+      "variant": "three-tier-cards",
+      "description": "Three plan cards side by side: 1 Gig ($45/mo), 500 Mbps ($35/mo), 300 Mbps ($25/mo). Each card has plan name, price with 5-year lock, dual CTAs (phone call + Check Availability button), feature bullet list with checkmark icons, and price lock / HBO Max inclusion badges. 'LIMITED TIME PRICING' label at top. Legal disclaimers per card.",
+      "cta_present": true,
+      "cta_type": "phone link + availability check button per card"
+    },
+    {
+      "order": 8,
+      "type": "promo-banner",
+      "variant": "hbo-max-banner",
+      "description": "Dark banner with HBO Max logo, headline 'HBO Max included for up to 12 months', supporting copy about bundled value, and phone CTA. Highlights the streaming add-on as a sweetener.",
+      "cta_present": true,
+      "cta_type": "phone link"
+    },
+    {
+      "order": 9,
+      "type": "cross-sell",
+      "variant": "two-card-upsell",
+      "description": "Two side-by-side cards promoting bundles: (1) Optimum Complete — $10/mo off internet when bundled with Unlimited Mobile, featuring iPhone 17 trade-in offer; (2) Internet + TV starting at $50/mo with 80+ channels. Each card has feature bullets and phone CTA. Drives ARPU by encouraging multi-product subscriptions.",
+      "cta_present": true,
+      "cta_type": "phone link per card"
+    },
+    {
+      "order": 10,
+      "type": "promo-banner",
+      "variant": "price-guarantee-strip",
+      "description": "Orange banner: 'Guarantee your price for up to 5 years when you switch to Optimum!' with price guarantee badge. Reinforces the 5-year lock message as a standalone visual break.",
+      "cta_present": false,
+      "cta_type": null
+    },
+    {
+      "order": 11,
+      "type": "product-feature",
+      "variant": "equipment-showcase",
+      "description": "Section promoting the WiFi 6E Gateway & Extender with three benefit bullets (reliable connection, battery conservation, easy setup via app). Product image on right, phone CTA at bottom.",
+      "cta_present": true,
+      "cta_type": "phone link"
+    },
+    {
+      "order": 12,
+      "type": "trust-signals",
+      "variant": "icon-grid-5-column",
+      "description": "Blue background section 'Reach your Optimum Internet goals' with 5 trust icons: 99.9% network reliability, 60-day money-back guarantee, no annual contract, no data caps, 24/7 support. Phone CTA at bottom. Handles objections visually — each icon addresses a common ISP concern.",
+      "cta_present": true,
+      "cta_type": "phone link"
+    },
+    {
+      "order": 13,
+      "type": "faq",
+      "variant": "accordion",
+      "description": "5-question expandable accordion covering data caps, equipment, bundles, gaming/streaming suitability, and customer service contact. Every answer includes the tracked phone number as an inline CTA. Addresses purchase hesitations while funneling to phone conversion.",
+      "cta_present": true,
+      "cta_type": "phone link within answers"
+    },
+    {
+      "order": 14,
+      "type": "bottom-cta",
+      "variant": "zip-code-bar",
+      "description": "Final availability check bar: 'See if Optimum is available near you!' with zip code input. Third repetition of the zip code form — captures visitors who reached the bottom.",
+      "cta_present": true,
+      "cta_type": "zip code availability check"
+    },
+    {
+      "order": 15,
+      "type": "footer",
+      "variant": "minimal-legal",
+      "description": "Optimum logo, legal attribution (Home Service Pros as authorized agent of Altice LLC), and links to Privacy Policy, Terms, CCPA/Do Not Sell, Accessibility. Minimal and compliance-focused.",
+      "cta_present": false,
+      "cta_type": null
+    }
+  ],
+
+  "cta_strategy": {
+    "primary_action": "Zip code availability check (lead capture)",
+    "secondary_action": "Phone call to sales line (866-702-4633)",
+    "cta_count": 3,
+    "placement_notes": "Dual-channel strategy throughout: zip code forms for self-service leads, phone CTAs for high-intent callers. The zip code form appears 3 times (hero, mid-page bar, bottom bar). The tracked phone number appears in the navbar, every pricing card, the HBO Max banner, both cross-sell cards, the equipment section, the trust signals section, and inline within every FAQ answer. Phone is omnipresent — it's the secondary CTA by label but likely the primary revenue driver given the affiliate/authorized-agent model. Every section except the urgency banner and footer has a conversion path."
+  },
+
+  "responsive_notes": "On mobile, the hero stacks vertically with the offer card above the lifestyle image. The three pricing tier cards stack into a single column with full-width cards. The two cross-sell cards also stack vertically. The 5-column trust icon grid becomes a stacked layout. Phone CTAs get large tap targets. The nav collapses to a hamburger menu but the phone number remains visible. The zip code forms go full-width. The page is long on mobile but maintains clear section separation with alternating background colors (white, blue, orange).",
+
+  "notable_patterns": [
+    "Authorized sales agent model (Home Service Pros for Altice/Optimum) — the entire page is a lead-gen funnel with a tracked phone number. The phone number in the URL parameters confirms this is a performance marketing landing page with call attribution.",
+    "5-year price lock is the dominant value proposition, repeated in the urgency banner, hero offer card, every pricing tier card, a standalone guarantee banner, and the trust signals section. This single message is hammered relentlessly to overcome ISP price-hike anxiety.",
+    "Zip code availability check serves as a soft lead capture — it doesn't ask for personal info upfront, just a zip code, reducing friction. Once availability is confirmed, the user is deeper in the funnel.",
+    "Phone CTA saturation: the tracked phone number appears 10+ times on the page. Every section that could plausibly include a CTA does. This reflects the authorized-agent revenue model where phone calls are the primary monetization event.",
+    "HBO Max inclusion is used as a differentiation sweetener — it gets prominent placement in the hero offer card, a dedicated banner, and badges on the top two pricing tiers. The 12-month vs 6-month tier difference creates implicit plan ranking.",
+    "Three-tier pricing uses classic anchoring: 1 Gig at $45 is the featured/hero plan, 500 Mbps at $35 is the middle option, 300 Mbps at $25 is the entry point. The $20 spread from bottom to top makes the upgrade feel incremental.",
+    "Cross-sell cards (mobile bundle + TV bundle) appear after the core internet pricing, following a 'land and expand' pattern — sell the primary product first, then upsell adjacent services.",
+    "FAQ answers embed the phone number inline, turning informational content into conversion opportunities. Every question resolved becomes a call prompt.",
+    "Alternating section backgrounds (white, blue, orange, dark) create strong visual rhythm and prevent scroll fatigue on what is a very long page."
+  ],
+
+  "tags": ["lead-gen", "telecom", "isp", "b2c", "phone-cta", "zip-code-capture", "tiered-pricing", "price-lock", "bundle-upsell", "authorized-agent", "call-tracking", "urgency", "hbo-max-promo", "fiber-internet", "long-form"]
+}

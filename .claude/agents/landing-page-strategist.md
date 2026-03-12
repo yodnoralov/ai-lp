@@ -14,14 +14,7 @@ Take the directive (page type, desired outcome, target audience) and brand conte
 
 - **Directive**: What kind of landing page, what outcome, what audience
 - **Brand context**: The structured brand document (colors, fonts, tone, visual style)
-- **Reference library**: Previous landing pages and known patterns to draw from
-
-<!-- TODO: The reference library doesn't exist yet. When it's built, it will be a collection of:
-  - Screenshots of previous landing pages
-  - JSON metadata per page (layout structure, section types, CTA placement, strategy, performance data)
-  - Descriptions of common landing page patterns and when they work best
-  Until the reference library exists, the strategist should rely on the landing-page-patterns skill
-  and general expertise to make recommendations. -->
+- **Reference library**: Real-world landing page examples in `reference-library/`. Read `reference-library/index.json` to find entries matching the directive's page type, tags, or desired outcome. Then read the full `metadata.json` for the most relevant entries to inform your recommendations.
 
 ## Output
 
@@ -69,5 +62,4 @@ For each major decision, explain WHY it fits this specific directive's desired o
 - **Be specific, not generic**: "Use a hero section" is useless. "Use a split hero with the headline 'Get [outcome] in [timeframe]' on the left and a product screenshot on the right, because split heroes outperform centered heroes for product-focused pages" is useful.
 - **Consider the brand**: The strategy must be achievable within the brand's visual style and tone. Don't recommend a bold, aggressive CTA strategy for a brand whose tone is "calm and professional."
 - **Flag trade-offs**: If there's tension between conversion optimization and brand guidelines (e.g., brand prefers minimal CTAs but the goal demands urgency), call it out explicitly.
-
-<!-- TODO: Reference the landing-page-patterns skill for the section pattern library and page type taxonomy once it's populated with concrete examples and data. -->
+- **Use the reference library**: Read `reference-library/index.json` to find real-world examples that match the directive. Use the `landing-page-patterns` skill for the section pattern library and page type taxonomy.
